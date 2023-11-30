@@ -1,14 +1,8 @@
 
-import './App.css';
+import Body from './components/Body';
 
 function App() {
-  return (
-    <div className="text-3xl font-bold text-red-900">
-      
-          Learn React
-      
-    </div>
-  );
+  return <Body className="flex items-center justify-items-center"/>
 }
 
 export default App;
